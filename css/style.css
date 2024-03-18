@@ -1,0 +1,41 @@
+.weblinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.weblinks li {
+    margin: 0;
+    padding: 0;
+}
+
+.weblinks li a {
+    display: block;
+    color: #2c2c2c63;
+    color:rgb(89, 141, 143);
+    font-size: 18px;
+    margin:0;
+    padding: 0;
+}
+
+.weblinks li a:hover {
+    background-color: #257bdd;
+    color: black;
+}
+
+.weblinks li a.active {
+    background-color: #87ff8b;
+    color: rgb(255, 0, 0);
+}
+
+.weblinks-container {
+    text-align: left;
+  }
+  a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
