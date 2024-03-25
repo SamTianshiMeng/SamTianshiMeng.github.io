@@ -51,7 +51,7 @@
           <li><a href="mailto:sam.tianshi.meng@gmail.com" target="_blank"  rel="noopener noreferrer">Email</a></li>
       </ul>
   </div>             
-        <div class="six columns" id="text">
+        <div class="six columns" id="textsizechange">
             <p>
                 Hi there                 
             </p>                
@@ -79,10 +79,11 @@
         <h3>Accessibility</h3>
         <hr>
         <h6><b> Color Contrast Mode</b></h6>
-        <button id="LightModeButton">Light Mode</button>
-        <button id="DarkModeButton">Dark Mode</button>
+        <button onclick="setLightMode()">Light Mode</button>
+        <button onclick="setDarkMode()">Dark Mode</button>
         <h6><b>Adjust Text</b></h6> 
-        <input type="range" min="8" max="48" value="16" id="sizeRange">
-        </div>     
+        <button type="button" onclick="myFunction()">Enlarge</button>
+        <button type="button" onclick="Original()">Normal</button>
+      </div>     
 </body>
 </html>
