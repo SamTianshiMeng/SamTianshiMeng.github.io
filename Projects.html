@@ -6,33 +6,87 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js" type="text/javascript"></script>
   </head>
   <body>
       <div class="container">
           <div class="row">
             <div class="three columns">
             <p>
-              <h4><a href="index.html" style="color:black">Home</a></h4>
+              <h4><a href="index.html" id="Home">Home</a></h4>
             </p>
           </div>
           <div class="three columns">
             <p>
-              <h4><a href="https://drive.google.com/file/d/1c2tMWXvGvWzcK4SGskKRqRVVv-0kF4_J/view?usp=sharing" style="color:black">Resume</a></h4>
+              <h4><a href="https://drive.google.com/file/d/1c2tMWXvGvWzcK4SGskKRqRVVv-0kF4_J/view?usp=sharing" id="Resume">Resume</a></h4>
             </p>
           </div>
           <div class="three columns">
             <p>
-              <h4><a href="Projects.html" style="color:black"></a>Projects</h4>
+              <h4><a href="Projects.html" id="Projects"></a>Projects</h4>
             </p>
           </div>
           <div class="three columns">
             <p>
-              <h4><a href="Interests.html" style="color:black">Interests</a></h4>
+              <h4><a href="Interests.html" id="Interests">Interests</a></h4>
             </p>
           </div>
       </div>
   </div>
   <div class="container center-content" style="text-align: center;">
     <div class="twelve columns">
-      <h1>Implemented in the future</h1>
+      <h1>Notable Projects</h1>
+      <br>
+      <br>
     </div>
+    </div>
+  </div>             
+    <div class="six columns" id="textsizechange" style="margin-left:10%; margin-right:10%;" >
+
+      <h3>High School Projects</h3>
+       <hr>            
+        <p>
+           While in high school I was really passionate about different modern engineering feats such as the internal combustion engine of different automobiles to household 
+           appliances such as the vaccum cleaner. Therefore one day while vaccuming I thought what if I could improve upon the current vaccum cleaner by utilizing static 
+           electricity instead of the standard air suction. With that thought in mind I started my construction of the static electric vaccume cleaner, I first designed 
+           the model using tinkercad then afterwards purchased the necessary parts of the model such as the semi conductor, metal rollers, and plastic plates to assemble 
+           the model. After assembly I tested the vaccum on different materials and the performance was decent while the performance could improve it is too dangerous to 
+           increase the output as I risk shocking myself. This project was initial meant to go on a science competition but due to Covid-19 the competition was cancelled 
+           therefore it did not see the light of day till now.  
+        </p> 
+      </div>
+      <br>
+      <br>
+      <div class="three columns" style ="float: right">
+        <img src="images\highschool project.jpg" style="width:120%;max-width:max-content;margin-top:4S0px; margin-left:-250px">
+        <p style="width:100%;max-width:max-content; margin-left:-250px">Image of the static electric vaccum cleaner</p>
+      </div>  
+      <div class="six columns" id="Anime and Games" style="margin-left:10%; margin-right:10%;padding-top:10%" >
+      <br>
+      <br>
+        <h3>University Programming Projects</h3>
+         <hr>            
+          <p>
+           Due to the future potiential of IT (Information Technology), I decided to pursue the business technology program at TMU (Toronto Metroplitan University) where I learned
+           to program with different languages such as python, SQL, html, javascript, and CSS. One of the more notable project that I build with python is the  
+            Credit Data AI prediction model where I constructed a non-parametic supervised learning algorithm 
+           decision tree model. The advantages of the decision tree model is that it's easy to understand and by adjusting the fitting to prevent overfitting and hypertuning the parameters 
+           I was able to achieve a high F1 score for the test set. The html project is the personal website as you could see here with the interactive elements such as changing the text size 
+           and light and dark mode of the website. Before I graduate I intend to build more projects that demonstrate my programming the skills. 
+          </p> 
+        </div>
+        <div class="three columns" style ="float: right">
+          <img src="images\decision tree.png" style="width:120%;max-width:max-content;margin-top:150px; margin-left:-250px;padding-top:10%">
+          <p style="width:100%;max-width:max-content; margin-left:-250px">Image of the decision tree of the Credit Data AI prediction model</p>
+        </div>  
+        <div class="twelve columns" style="text-align: center; padding-top:5%"> 
+          <h3>Accessibility</h3>
+          <hr>
+          <h6><b> Color Contrast Mode</b></h6>
+          <button onclick="setLightMode()">Light Mode</button>
+          <button onclick="setDarkMode()">Dark Mode</button>
+          <h6><b>Adjust Text</b></h6> 
+          <button type="button" onclick="myFunction()">Enlarge</button>
+          <button type="button" onclick="Original()">Normal</button>
+        </div>
+      </body>

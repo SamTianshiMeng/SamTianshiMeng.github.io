@@ -8,33 +8,90 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="script/main.js" type="text/javascript"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-          <div class="three columns">
-          <p>
-            <h4><a href="index.html" style="color:black">Home</a></h4>
-          </p>
-        </div>
-        <div class="three columns">
-          <p>
-            <h4><a href="https://drive.google.com/file/d/1c2tMWXvGvWzcK4SGskKRqRVVv-0kF4_J/view?usp=sharing" style="color:black">Resume</a></h4>
-          </p>
-        </div>
-        <div class="three columns">
-          <p>
-            <h4><a href="Projects.html" style="color:black">Projects</a></h4>
-          </p>
-        </div>
-        <div class="three columns">
-          <p>
-            <h4>Interests</h4>
-          </p>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="three columns">
+      <p>
+        <h4><a href="index.html" id="Home">Home</a></h4>
+      </p>
     </div>
+    <div class="three columns">
+      <p>
+        <h4><a href="https://drive.google.com/file/d/1c2tMWXvGvWzcK4SGskKRqRVVv-0kF4_J/view?usp=sharing" id="Resume">Resume</a></h4>
+      </p>
+    </div>
+    <div class="three columns">
+      <p>
+        <h4><a href="Projects.html" id="Projects">Projects</a></h4>
+      </p>
+    </div>
+    <div class="three columns">
+      <p>
+        <h4><a href="Interests.html"id="Interests">Interests</a></h4>
+      </p>
+    </div>
+</div>
 </div>
 <div class="container center-content" style="text-align: center;">
   <div class="twelve columns">
-    <h1>Implemented in the future</h1>
+    <h1>My Interests</h1>
+    <br>
+    <br>
+  </div>
+  </div>
+</div>             
+<div class="six columns" id="textsizechange" style="margin-left:10%; margin-right:10%;" >
+
+  <h3>Olympic Shooting </h3>
+   <hr>            
+    <p>
+       I was introduced to <a href="https://olympics.com/en/news/olympic-shooting-air-rifle-3-positions-rapid-fire-air-pistol-shotgun-trap-skeet" id="Olympic">Olympic Shooting</a> while participating in the Royal Canadian Air Cadets, I thoroughly enjoyed the experience as it taught me to remain calm under stressful 
+       situations, as well as providing an effect similar to mediation as it allowed me to collect my thoughts. Since I was really passionate about Olympic Shooting I want to shoot 
+       for the stars aim for Olympic Champion. In which my journey started when i competed in a regional competition with a cadet rifle while everyone had olympic level rifle 
+       and despite the disadvantage I was middle of the pack and this strange behavior caught the eye of my now coach Pat Vamplew (former Olympian). After getting to know me 
+       he determined that I have the potiental to succeed and gave me my initial gears and my first olympic rifle in which I won a regional competition with 3 month of training 
+       then provincial championships 5 month later. Finally I won nationals in 2022 after training for 2 years, but due to a recent injury, I did not qualify for the pan american 
+       games. 
+     </p> 
+  </div>
+  <br>
+  <br>
+  <div class="three columns" style ="float: right">
+    <img src="images\Olympic Shooting Scoreboard.jpg" style="width:120%;max-width:max-content;margin-top:4S0px; margin-left:-250px">
+    <p style="width:100%;max-width:max-content; margin-left:-250px">Image of the score of my first series during practice at PAN AM shooting range</p>
+  </div>  
+  <div class="six columns" id="Anime and Games" style="margin-left:10%; margin-right:10%;padding-top:10%" >
+  <br>
+  <br>
+
+    <h3>Anime and Games</h3>
+     <hr>            
+      <p>
+        I had always enjoyed different video games and animated series since I was young, from series such as <a href="https://en.wikipedia.org/wiki/Naruto" id="Naruto">naruto</a> 
+        to <a href="https://en.wikipedia.org/wiki/Bleach_(TV_series)" id="Bleach">bleach</a> to <a href="https://en.wikipedia.org/wiki/Fairy_Tail" id="Fairy tail">fairy tail</a>. 
+        Currently I enjoyed watching the popular genre of isekai anime which has a setting in another world and the protagonist is usually from the modern world of the 21st century and by using modern day
+        knowledge the protagonist succeeds in the otherworld (usually fantasy). For games I was a avid <a href="https://en.wikipedia.org/wiki/StarCraft_II:_Wings_of_Liberty" id="SC2">starcraft 2</a> player 
+        when I was young due to the lack of social interaction within the game as it is mostly a 1v1 game therefore I transition to 
+        <a href="https://en.wikipedia.org/wiki/League_of_Legends" id="League">league of legends</a> where I have reached diamond a rank where I could tryout for the esport team at 
+        Toronto Metroplitan university. Due to the discipline and competitive nature that I developed during my journey for olympic shooting I am able to achieve a 
+        relatively high rank in most competitive game.
+      </p> 
+    </div>
+    <div class="three columns" style ="float: right">
+      <img src="images\League of Legends image.png" style="width:120%;max-width:max-content;margin-top:150px; margin-left:-250px;padding-top:10%">
+      <p style="width:100%;max-width:max-content; margin-left:-250px">Image reaching the apex tiers of league of legends</p>
+    </div>  
+
+  <div class="twelve columns" style="text-align: center; padding-top:5%"> 
+    <h3>Accessibility</h3>
+    <hr>
+    <h6><b> Color Contrast Mode</b></h6>
+    <button onclick="setLightMode()">Light Mode</button>
+    <button onclick="setDarkMode()">Dark Mode</button>
+    <h6><b>Adjust Text</b></h6> 
+    <button type="button" onclick="myFunction()">Enlarge</button>
+    <button type="button" onclick="Original()">Normal</button>
   </div>
