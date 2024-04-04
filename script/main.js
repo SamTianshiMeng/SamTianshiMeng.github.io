@@ -13,6 +13,7 @@ function setLightMode() {
     document.getElementById("SC2").style.color = "rgb(0, 0, 0)";
     document.getElementById("Olympic").style.color = "rgb(0, 0, 0)";
     document.getElementById("toggleButton").innerHTML = "On";
+    localStorage.setItem('mode', 'light');
 }
 
 function setDarkMode() {
@@ -29,11 +30,23 @@ function setDarkMode() {
     document.getElementById("SC2").style.color = "rgb(255, 255, 255)";
     document.getElementById("Olympic").style.color = "rgb(255, 255, 255)";
     document.getElementById("toggleButton").innerHTML = "On";
+    localStorage.setItem('mode', 'dark');
 }
 function myFunction() {
     document.getElementById("textsizechange").style.fontSize = "x-large";
-    document.getElementById("Anime and Games").style.fontSize = "x-large";
+    document.getElementById("program").style.fontSize = "x-large";
   }
+function interest()
+{
+    document.getElementById("textsizechange").style.fontSize = "x-large";
+    document.getElementById("anime").style.fontSize = "x-large";
+}
+function anime()
+{
+    document.getElementById("textsizechange").style.fontSize = "15px";
+    document.getElementById("anime").style.fontSize = "15px";
+}
 function Original() {
     document.getElementById("textsizechange").style.fontSize = "15px";
+    document.getElementById("program").style.fontSize = "15px";
 }
