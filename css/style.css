@@ -12,20 +12,20 @@
 .weblinks li a {
     display: block;
     color: #2c2c2c63;
-    color:rgb(89, 141, 143);
+    color:rgb(0, 247, 255);
     font-size: 18px;
     margin:0;
     padding: 0;
 }
 
 .weblinks li a:hover {
-    background-color: #257bdd;
-    color: black;
+    background-color: #1800f3;
+    color: rgb(0, 38, 255);
 }
 
 .weblinks li a.active {
-    background-color: #87ff8b;
-    color: rgb(255, 0, 0);
+    background-color: #0059ff;
+    color: rgb(47, 0, 255);
 }
 
 .weblinks-container {
@@ -48,11 +48,11 @@ a:link {
   }
   
   a:hover {
-    color: gray;
+    color: rgb(25, 0, 255);
   }
   
   a:active {
-    color: red;
+    color: rgb(25, 0, 255);
   }
   
   a:link, a:visited {
