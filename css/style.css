@@ -12,20 +12,20 @@
 .weblinks li a {
     display: block;
     color: #2c2c2c63;
-    color:rgb(0, 247, 255);
+    color:rgb(40, 37, 201);
     font-size: 18px;
     margin:0;
     padding: 0;
 }
 
 .weblinks li a:hover {
-    background-color: #1800f3;
-    color: rgb(0, 38, 255);
+    background-color: #3c3c3d;
+    color: rgb(250, 251, 253);
 }
 
 .weblinks li a.active {
-    background-color: #0059ff;
-    color: rgb(47, 0, 255);
+    background-color: #9397a0;
+    color: rgb(236, 255, 68);
 }
 
 .weblinks-container {
